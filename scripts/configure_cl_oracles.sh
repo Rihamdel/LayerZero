@@ -6,5 +6,5 @@ networks=(${N//,/ })
 
 for network in "${networks[@]}"
 do
-    echo "npx hardhat --network $network configureChainlinkOracleClient --env $2"
+    echo "npx hardhat --network $network configureChainlinkOracleClient --env $5"
 done
