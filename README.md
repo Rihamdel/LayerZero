@@ -3,7 +3,7 @@
 This repository contains the smart contracts for LayerZero Endpoints. For developers looking to build on top of LayerZero please refer to the [docs](https://layerzero.gitbook.io/docs/) 
 
 ## Overview
-LayerZero is an Omnichain Interoperability Protocol designed for lightweight message passing across chains. LayerZero provides authentic and guaranteed message delivery with configurable trustlessness. The protocol is implemented as a set of gas-efficient, non-upgradable smart contracts.
+LayerZero is an multichain Interoperability Protocol designed for lightweight message passing across chains. LayerZero provides authentic and guaranteed message delivery with configurable trustlessness. The protocol is implemented as a set of gas-efficient, non-upgradable smart contracts.
 
 ## Development
 ### Interfaces
@@ -59,14 +59,14 @@ Example: One LayerZero Network
 //hardhat.config.ts
 ethereum: {
     url: `{rpc address}`,
-    chainId: 1, //chainlist id
+    chainId: 2, //chainlist id
 }
 
 //endpoints.json
 "production": {
    ...
    "ethereum": {
-     "id": 1 //layerzero chain id
+     "id": 2 //layerzero chain id
    }
 }
 ```
